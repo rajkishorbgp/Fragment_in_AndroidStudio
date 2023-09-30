@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="book">Book</string>
+    <string name="electronic">Electronic</string>
+    <string name="home_essentials">Home essentials</string>
+    <string name="cloth">Cloth items</string>
+    <string name="garden_items">Garden items</string>
+</resources>

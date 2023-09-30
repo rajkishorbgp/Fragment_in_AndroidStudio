@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/wheatColor"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bookButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="3dp"
+            android:text="@string/book"
+            android:textStyle="bold"
+            android:background="@color/blueberryColor"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/electronicButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="@string/electronic"
+            android:textStyle="bold"
+            android:background="@color/blueberryColor"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/homeEssentialsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="@string/home_essentials"
+            android:background="@color/blueberryColor"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/clothItemsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="@string/cloth"
+            android:textStyle="bold"
+            android:background="@color/blueberryColor"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/gardenItemsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="@string/garden_items"
+            android:background="@color/blueberryColor"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
